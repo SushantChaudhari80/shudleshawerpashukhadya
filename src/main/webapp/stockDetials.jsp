@@ -76,7 +76,7 @@ function addStock(){
     var qty = mobileElement.value;
     
     $.ajax({
-        url: 'http://angelic-perception-production.up.railway.app/addStock', // Replace with your server endpoint
+        url: 'https://angelic-perception-production.up.railway.app/addStock', // Replace with your server endpoint
         type: 'POST',
         data: {
             pname: pname,
@@ -106,7 +106,7 @@ function updateStock(type){
     console.log("values are : " + pname + qty + type);
     
     $.ajax({
-        url: 'http://angelic-perception-production.up.railway.app/updateStock', // Replace with your server endpoint
+        url: 'https://angelic-perception-production.up.railway.app/updateStock', // Replace with your server endpoint
         type: 'POST',
         data: {
             pid: pname,
