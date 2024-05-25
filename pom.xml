@@ -11,7 +11,7 @@
 	<groupId>com.project</groupId>
 	<artifactId>live</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>Live_project</name>
 	<description>demo</description>
 	<properties>
