@@ -1,12 +1,9 @@
 package com.project.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
 
-@Entity
 public class StudentModel {
 
- @Id
+
 private String user_id;
 private String user_name;
 private String user_pass;
