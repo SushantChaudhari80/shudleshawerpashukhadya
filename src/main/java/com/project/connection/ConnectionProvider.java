@@ -14,6 +14,9 @@ public class ConnectionProvider {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection(
 					"jdbc:mysql://roundhouse.proxy.rlwy.net:32730/railway", "root", "xOxxMXnbXPuvfZwpyYPIjkovXEhotcuu");
+			
+//			con = DriverManager.getConnection(
+//					"jdbc:mysql://127.0.0.1:3306/sushant", "root", "root");
 			System.out.println("Connection created successfully");
 			return con;
 			
