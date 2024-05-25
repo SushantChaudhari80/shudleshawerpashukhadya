@@ -17,7 +17,7 @@
             var qty = mobileElement.value;
             
             $.ajax({
-                url: 'https://angelic-perception-production.up.railway.app/addStock', // Replace with your server endpoint
+                url: 'https://sudleshwarpashukhadya.up.railway.app/addStock', // Replace with your server endpoint
                 type: 'POST',
                 data: {
                     pname: pname,

@@ -21,7 +21,7 @@
 
             // Send AJAX request
             $.ajax({
-                url: 'https://angelic-perception-production.up.railway.app/addUser', // Replace with your server endpoint
+                url: 'https://sudleshwarpashukhadya.up.railway.app/addUser', // Replace with your server endpoint
                 type: 'POST',
                 data: {
                     cname: cname,

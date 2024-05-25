@@ -23,7 +23,7 @@
             console.log("values are : " + pname + qty + type);
             
             $.ajax({
-                url: 'https://angelic-perception-production.up.railway.app/updateStock', // Replace with your server endpoint
+                url: 'https://sudleshwarpashukhadya.up.railway.app/updateStock', // Replace with your server endpoint
                 type: 'POST',
                 data: {
                     pid: pname,
