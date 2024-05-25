@@ -21,7 +21,7 @@
 
             // Send AJAX request
             $.ajax({
-                url: 'http://localhost:8080/addUser', // Replace with your server endpoint
+                url: 'http://angelic-perception-production.up.railway.app/addUser', // Replace with your server endpoint
                 type: 'POST',
                 data: {
                     cname: cname,

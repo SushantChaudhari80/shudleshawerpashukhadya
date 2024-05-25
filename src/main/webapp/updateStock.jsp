@@ -24,7 +24,7 @@
             console.log("values are : " + pname + qty + type);
             
             $.ajax({
-                url: 'http://localhost:8080/updateStock', // Replace with your server endpoint
+                url: 'http://angelic-perception-production.up.railway.app/updateStock', // Replace with your server endpoint
                 type: 'POST',
                 data: {
                     pid: pname,

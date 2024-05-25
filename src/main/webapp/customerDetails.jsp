@@ -90,7 +90,7 @@ function doTransaction(){
     	    var comment= comment1.value;
     	    var amount = amount1.value;
     $.ajax({
-        url: 'http://localhost:8080/addEntry', // Replace with your server endpoint
+        url: 'http://angelic-perception-production.up.railway.app/addEntry', // Replace with your server endpoint
         type: 'POST',
         data: {
             pid: pname,
@@ -113,7 +113,7 @@ function doTransaction(){
     }else{
     	 var amount = amount1.value;
     	 $.ajax({
-    	        url: 'http://localhost:8080/addEntry', // Replace with your server endpoint
+    	        url: 'http://angelic-perception-production.up.railway.app/addEntry', // Replace with your server endpoint
     	        type: 'POST',
     	        data: {
     	            pid: "",
