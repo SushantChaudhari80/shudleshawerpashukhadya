@@ -12,8 +12,4 @@ public class Config {
 	public UserService getObject() {
 		return new UserService();
 	}
-	
-	public static String getHostName() {
-		return "localhost:8080";
-	}
 }

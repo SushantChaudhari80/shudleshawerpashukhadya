@@ -1,6 +1,6 @@
-<%@page import="com.project.Config"%>
 <%@page import="com.project.connection.ConnectionProvider"%>
 <%@page import="java.sql.Connection"%>
+<%@page import="jdk.nashorn.internal.runtime.GlobalFunctions"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.PreparedStatement"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
