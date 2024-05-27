@@ -70,7 +70,7 @@
 						%>
 						
 						<tr <% int blc = Integer.parseInt(rs.getString("balance"));
-							          if(blc>0){  %>Style="color: green; background-color:#B9FFC0; "  <%}else if(blc<0){%>  style="color: red; background-color:#FFCFC7;" <%}%>>
+							          if(blc>0){  %>Style="color: green;  background-color:#B9FFC0; "  <%}else if(blc<0){%>  style="color: red; background-color:#FFCFC7;" <%}%>>
 							<td><%=rs.getString("cid") %></td>
 							 <td><a href="customerDetails.jsp?cid=<%=rs.getString("cid") %>"><%=rs.getString("cname") %></a></td>
 							<td><%=rs.getString("caddress") %></td>
