@@ -195,7 +195,7 @@ function closePopup() {
 							}else{
 								%>
 								<th></th>
-								<th style="color: green"><%=rs.getString("amount") %></th>
+								<th style="color: green;"><%=rs.getString("amount") %></th>
 								<% 
 							   }
 								%>
