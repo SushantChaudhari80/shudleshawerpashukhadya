@@ -166,8 +166,8 @@ function closePopup() {
 							<th>Product Name</th>
 							<th>Date</th>
 							<th>Description</th>
-							<th>You Gave</th>
-							<th>You Got</th>
+							<th style="color: red;">You Gave</th>
+							<th style="color: green">You Got</th>
 							
 						</tr>
 						<%
@@ -189,13 +189,13 @@ function closePopup() {
 								String type =rs.getString("t_type");
 								  if(type.equals("Y")){
 								%>
-								<th><%=rs.getString("amount") %></th>
+								<th style="color: red;"><%=rs.getString("amount") %></th>
 								<th></th>
 								<%
 							}else{
 								%>
 								<th></th>
-								<th><%=rs.getString("amount") %></th>
+								<th style="color: green"><%=rs.getString("amount") %></th>
 								<% 
 							   }
 								%>
